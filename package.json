@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "@zregvart/opa-inspect": "^0.48.0-27a6bdf"
+  },
+  "scripts": {
+    "build": "npx browserify index.js -o dist/bundle.js"
+  }
+}
